@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exclusive Access</title>
+</head>
+<body>
+  <script>
+    const userEmail = localStorage.getItem("userEmail");
+    if (!userEmail) {
+      window.location.href = "/";
+    }
+  </script>
+
+  <h1>Welcome to the Archive.</h1>
+  <p>This is your exclusive content.</p>
+</body>
+</html>
 
